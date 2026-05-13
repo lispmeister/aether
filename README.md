@@ -1,5 +1,14 @@
 # Aether
 
+[![Build Status](https://github.com/lispmeister/aether/actions/workflows/ci.yml/badge.svg)](https://github.com/lispmeister/aether/actions/workflows/ci.yml)
+[![Elixir](https://img.shields.io/badge/elixir-1.20.0--rc.4-4B275F?logo=elixir&logoColor=white)](https://elixir-lang.org/)
+[![OTP](https://img.shields.io/badge/OTP-28-ED1C24?logo=erlang)](https://www.erlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+<p align="center">
+  <img src="./docs/images/aether-logo.jpg" alt="Aether cover image" width="520" />
+</p>
+
 Aether makes long-running Elixir/OTP systems legible to AI maintainers without handing them authority.
 
 It is a thin governance layer over Elixir that adds explicit intent, structured invariants, runtime mirrors, traceable simulation, provenance, and human review for risky changes. The goal is not autonomous rewriting. The goal is a safer maintenance loop for live systems that need to evolve over time.
