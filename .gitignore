@@ -3,3 +3,4 @@ archive
 tmp
 log
 .claude
+_build
